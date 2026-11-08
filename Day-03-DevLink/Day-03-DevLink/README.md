@@ -1,16 +1,115 @@
-# React + Vite
+# MyLink – Your Digital Identity, One Link
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MyLink is a customizable personal profile builder that allows users to bring all their important social media, professional, and personal links together on a single page.
 
-Currently, two official plugins are available:
+Built as part of my 30-Day Build Challenge, MyLink focuses on creating a simple, responsive, and personalized digital identity experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- **Custom Profile:** Add your display name, username, and bio.
+- **Profile Picture:** Upload or remove your profile picture.
+- **Multiple Links:** Add and manage links from different platforms.
+- **Platform Selection:** Choose from social media, messaging, creative, and other platforms.
+- **Custom Platforms:** Add platforms that aren't listed.
+- **Live Preview:** See profile changes instantly.
+- **Theme Customization:** Choose from Violet, Ocean, and Sunset themes.
+- **Dark Mode:** Switch between light and dark appearances.
+- **Local Storage:** Save profile information and links in your browser.
+- **Responsive Design:** Designed for desktop and mobile screens.
+- **Profile Link:** Copy the current preview URL.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- React.js
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+- Browser Local Storage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Screenshots
+
+<!-- Add your project screenshots here -->
+
+## 🚀 Getting Started
+
+Follow these steps to run MyLink locally.
+
+### 1. Clone the repository
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
+
+### 2. Navigate to the project folder
+
+```bash
+cd YOUR_PROJECT_FOLDER
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal to access the application.
+
+## 📁 Project Structure
+
+```text
+MyLink/
+├── public/
+│   └── ra24-logo.png
+├── src/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── package-lock.json
+```
+
+## 💾 Data Storage
+
+MyLink currently uses browser Local Storage to retain profile details, uploaded profile pictures, links, theme preferences, and appearance settings.
+
+Data is stored locally in the user's browser and is not synced across devices.
+
+## 🔮 Future Improvements
+
+- User authentication and registration
+- Backend and database integration
+- Unique public profile URLs
+- Custom profile themes and layouts
+- Real platform icons
+- Link analytics and visitor tracking
+- QR code generation
+- Drag-and-drop link arrangement
+
+## 🏢 Developed By
+
+**MyLink**
+
+A product of **RA24 DigiWorks**
+
+Affordable Digital & Creative Services for Everyone.
+
+## 📌 Project Information
+
+- Project: MyLink
+- Challenge: 30-Day Build Challenge
+- Day: 03
+- Status: Frontend development in progress
+
+---
+
+*Built with creativity, consistency, and a commitment to learning by building.*
